@@ -1,5 +1,6 @@
 #include <iostream>
 
 int main(){
-  std::cout << "Hello World!" << std::endl;
+  const char *test {"Hello world!"};
+  std::cout << test << std::endl;
 }
